@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # 1. Leer el conjunto de datos
-car_data = pd.read_csv('../Proyecto7/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # 2. Aplicar la limpieza y depuración de datos sincronizada
 # Rellenar 'is_4wd' con 0
